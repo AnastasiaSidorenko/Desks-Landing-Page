@@ -1,0 +1,131 @@
+.preview-page {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    .preview-page {
+        justify-content: center;
+    }
+}
+
+.preview-page__title {
+    color: #260719;
+    line-height: 112%;
+    position: relative;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+.preview-page__title:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    right: 12px;
+    border: 2px dashed #260719;
+}
+
+.preview-page__products {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+}
+
+.product {
+    color: #260719;
+    background: #F9F9F9;
+}
+
+.product__visual {
+    position: relative;
+    max-width: 100%;
+}
+
+.product:hover {
+    cursor: pointer;
+}
+
+.product__img {
+    object-fit: contain;
+    max-width: 100%
+}
+
+.product__discount {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #FFA4CD;
+    border-radius: 3px;
+    font-weight: 500;
+    height: 26px;
+    line-height: 26px;
+    width: 49px;
+    text-align: center;
+}
+
+.product__discount:hover{
+    background: #f89ac4;
+}
+
+.product__size {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    text-align: center;
+    width: 84px;
+    height: 33px;
+    line-height: 33px;
+    background: #F9F9F9;
+    border: 1px solid rgba(38, 7, 25, 0.1);
+}
+
+.product__size:hover{
+    background: #ececec;
+}
+
+.product__sizes {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 18px;
+    left: 18px;
+    right: 18px;
+    bottom: 26px;
+}
+
+.product__description {
+    color: #260719;
+}
+
+.product__title {
+    line-height: 30px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.product__name, .product__price {
+    display: inline-block;
+}
+
+.product__price {
+    float: right;
+}
+
+.product__specs {
+    display: flex;
+    flex-direction: column;
+}
+
+.product__spec {
+    display: flex;
+    font-size: 16px;
+}
+
+.product__spec-caption {
+    padding-left: 16.5px;
+}

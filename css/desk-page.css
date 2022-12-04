@@ -1,0 +1,29 @@
+.desk-page {
+    display: flex;
+    font-size: 46px;
+    position: relative;
+}
+
+.desk-page__img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.desk-page__text {
+    padding-top: 35px;
+    z-index: 2;
+}
+
+.desk-page__title {
+    font-weight: normal;
+    line-height: 112%;
+    color: #423e41;
+    padding-bottom: 28px;
+}
+
+.desk-page__subtitle {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 134%;
+    color: #260719;
+}

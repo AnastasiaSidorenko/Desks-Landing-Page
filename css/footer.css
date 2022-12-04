@@ -1,0 +1,130 @@
+.footer {
+    background: #F9F9F9;
+    border-top: 1px solid rgba(38, 7, 25, 0.1);
+    color: #260719;
+}
+
+.footer__info {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+}
+
+.links {
+    display: flex;
+    color: #260719;
+}
+
+.links__block {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 21px;
+}
+
+.links__block a {
+    width: min-content;
+}
+
+.links__item {
+    white-space: nowrap;
+}
+
+.subscription__title {
+    font-size: 18px;
+    padding-bottom: 26px;
+}
+
+.subscription__email {
+    height: 42px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.subscription__input {
+    height: 100%;
+    width: 228px;
+    background: rgba(38, 7, 25, 0.2);
+    border: inherit;
+    font-size: 14px;
+    color: #260719;
+    border-radius: 3px 0px 0px 3px;
+    text-indent: 15px;
+}
+
+.subscription__input::placeholder {
+    color: #260719;
+    opacity: 1;
+}
+
+.subscription__submit {
+    height: 100%;
+    width: 74px;
+    text-align: center ;
+    background: #F94125;
+    border: inherit;
+    border-radius: 0px 3px 3px 0px;
+    color: white;
+    font-size: 15px;
+}
+
+.subscription__submit:hover {
+    cursor: pointer;
+}
+
+.subscription__conditions {
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.subscription__checkbox {
+    margin-right: 5px;
+    vertical-align: middle;
+    border-radius: 0;
+}
+
+.subsription__politics {
+    color: #260719;
+    opacity: 0.6
+}
+
+.subsription__politics a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.social-links {
+    display: flex;
+    grid-gap: 18px;
+    flex-wrap: nowrap;
+}
+
+.social-links img {
+    height: 40px;
+}
+
+.separator {
+    height: 1px;
+    margin-left: 10px;
+    margin-right: 6px;
+    background: #260719;
+    opacity: 0.2
+}
+
+.politics {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 83px;
+    color: #260719;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.politics:hover {
+    cursor: pointer;
+}
+
+.politics__item {
+    opacity: 0.6;
+}
